@@ -1,7 +1,7 @@
 import React from 'react'
-// import { AiFillLinkedin } from "react-icons/ai";
-// import { AiOutlineTwitter } from "react-icons/ai";
-// import { AiFillGithub } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
+import { AiOutlineTwitter } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { Link } from 'react-router-dom';
 
 
@@ -32,15 +32,15 @@ export default function Navbar() {
               <li className="nav-item mx-5">
                 <Link className="nav-link active" aria-current="page" to="/contactMe" style={{ color: textColor }}>Contact Me</Link>
               </li>
-              {/* <li className="nav-item mx-3">
-                <a className="nav-link active" aria-current="page" href="/" style={{ color: textColor }}><AiFillLinkedin /></a>
+              <li className="nav-item mx-3">
+                <a className="nav-link active" aria-current="page" href="https://www.linkedin.com/in/sk-sahil-ali-665248187/" style={{ color: textColor }}><AiFillLinkedin /></a>
               </li>
               <li className="nav-item mx-3">
-                <a className="nav-link active" aria-current="page" href="/" style={{ color: textColor }}><AiOutlineTwitter /></a>
+                <a className="nav-link active" aria-current="page" href="https://twitter.com/SKSAHIL68371298" style={{ color: textColor }}><AiOutlineTwitter /></a>
               </li>
               <li className="nav-item mx-3">
-                <a className="nav-link active" aria-current="page" href="/" style={{ color: textColor }}><AiFillGithub /></a>
-              </li> */}
+                <a className="nav-link active" aria-current="page" href="https://github.com/Sahilali98" style={{ color: textColor }}><AiFillGithub /></a>
+              </li>
 
             </ul>
           </div>

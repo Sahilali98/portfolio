@@ -21,7 +21,7 @@ export default function Studies() {
                     </div>
                     <div className="col-md-6 text-center">
                         <div className="h-100   rounded-3 text-center">
-                            <img src={process.env.PUBLIC_URL+"images/10th class.jpg"} className="rounded" alt='10th marksheet' style={{width:400,height:400}}/>
+                            <img src="" className="rounded" alt='10th marksheet' style={{width:400,height:400}}/>
                         </div>
                     </div>
                 </div>

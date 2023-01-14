@@ -4,6 +4,9 @@ import AboutMe from './Components/AboutMe';
 import Studies from './Components/Studies';
 import Skills from './Components/Skills';
 import RecentProject from './Components/RecentProject';
+import profile from "./images/sahil.jpg";
+
+import reactIcon from "./images/React-icon.svg.png";
 
 
 import Navbar from './Components/Navbar';
@@ -35,15 +38,14 @@ function App() {
            <RecentProject/>
         </Route>
         <Route path="/skills">
-           <Skills/>
+           <Skills reactIcon={reactIcon}/>
         </Route>
         <Route path="/studies">
-           <Studies/>
+           <Studies />
         </Route>
         <Route path="/">
-           <AboutMe/>
+           <AboutMe image={profile}/>
         </Route>
-
       </Switch>
   
       </Router>

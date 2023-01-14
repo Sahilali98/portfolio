@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Skills() {
+function Skills(props) {
     return (
         <div>
             <div>
@@ -22,7 +22,7 @@ function Skills() {
                         </div>
                         <div className="col-md-6 text-center">
                             <div className="h-100   rounded-3 text-center">
-                                <img id="reactImage" src={process.env.PUBLIC_URL + "images/React-icon.svg.png"} className="rounded" alt='10th marksheet' style={{ width: 200, height: 200 }} />
+                                <img id="reactImage" src={props.reactIcon} className="rounded" alt='10th marksheet' style={{ width: 200, height: 200 }} />
                             </div>
                         </div>
                     </div>

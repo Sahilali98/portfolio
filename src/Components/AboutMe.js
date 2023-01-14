@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from './Image'
 
-export default function AboutMe() {
+export default function AboutMe(props) {
   return (
     <>
       <div className="container">
@@ -13,7 +13,7 @@ export default function AboutMe() {
             </div>
           </div>
           <div className="col-md-6 text-center">
-              <Image />
+              <Image sahil={props.image}/>
           </div>
         </div>
       </div>
